@@ -1,6 +1,12 @@
 ####Uiautomator test case example on AndroidStudio-2.0
 ====
 
+#### work flow of write test with uiautomator
+1. Environment Setup
+2. Project Setup
+3. Development
+4. Building, Debugging and Testing
+
 ##### Environment Setup
 
 > * ubuntu 14.04 64 bit
