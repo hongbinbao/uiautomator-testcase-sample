@@ -20,8 +20,9 @@
     * no need to create activity
     
 2. add Testing Support Library in "app/build.gradle" file
+    
 3. add "AndroidJUnitRunner" in "app/build.gradle" file
-"app/build.gradle"
+    test support library dependencies
 ```
 //The Annotation package provides APIs to support adding annotation metadata to your app/test code.
 androidTestCompile 'com.android.support:support-annotations:23.3.0'
@@ -38,7 +39,7 @@ androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.1'
 // Set this dependency to build and run UI Automator tests
 androidTestCompile 'com.android.support.test.uiautomator:uiautomator-v18:2.1.2'
 ```
-"app/build.gradle"
+    registe test runner
 ```
    defaultConfig {
         applicationId "demo.example.com.demo"
