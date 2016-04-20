@@ -1,7 +1,7 @@
 ####Uiautomator test case example on AndroidStudio-2.0
 ====
 
-#### work flow of write test with uiautomator
+#### work flow of writing test case with uiautomator
 1. Environment Setup
 2. Project Setup
 3. Development
