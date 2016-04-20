@@ -18,12 +18,15 @@
     * Phone and Tablet
     * Minimum SDK: Api 18 Android 4.3 (Jelly Bean)
     * no need to create activity
+    
 2. add Testing Support Library in "app/build.gradle" file. (or add all dependencies your need here)
+    * if you have no The Android Testing Support Library package. you can download through the Android SDK Manager.
+    
 ```
     //The Annotation package provides APIs to support adding annotation metadata to your app/test code.
-androidTestCompile 'com.android.support:support-annotations:23.3.0'
+    androidTestCompile 'com.android.support:support-annotations:23.3.0'
    
-  // Set this dependency to use ANdroid test runner
+    // Set this dependency to use ANdroid test runner
     androidTestCompile 'com.android.support.test:runner:0.4'
     
     // Set this dependency to use JUnit 4 rules
@@ -35,8 +38,7 @@ androidTestCompile 'com.android.support:support-annotations:23.3.0'
     // Set this dependency to build and run UI Automator tests
     androidTestCompile 'com.android.support.test.uiautomator:uiautomator-v18:2.1.2'
 ```
-    * if you have no The Android Testing Support Library package. you can download through the Android SDK Manager.
-    
+
 3. add "AndroidJUnitRunner" in "app/build.gradle" file
 ```
     defaultConfig {
