@@ -20,27 +20,24 @@
     * no need to create activity
     
 2. add Testing Support Library in "app/build.gradle" file
-    
+   ```
+   //The Annotation package provides APIs to support adding annotation metadata to your app/test code.
+   androidTestCompile 'com.android.support:support-annotations:23.3.0'
+      
+   // Set this dependency to use ANdroid test runner
+   androidTestCompile 'com.android.support.test:runner:0.4'
+       
+   // Set this dependency to use JUnit 4 rules
+   androidTestCompile 'com.android.support.test:rules:0.4'
+       
+   // Set this dependency to build and run Espresso tests
+   androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.1'
+       
+   // Set this dependency to build and run UI Automator tests
+   androidTestCompile 'com.android.support.test.uiautomator:uiautomator-v18:2.1.2'
+   ```
 3. add "AndroidJUnitRunner" in "app/build.gradle" file
-
-```
-//The Annotation package provides APIs to support adding annotation metadata to your app/test code.
-androidTestCompile 'com.android.support:support-annotations:23.3.0'
-   
-// Set this dependency to use ANdroid test runner
-androidTestCompile 'com.android.support.test:runner:0.4'
-    
-// Set this dependency to use JUnit 4 rules
-androidTestCompile 'com.android.support.test:rules:0.4'
-    
-// Set this dependency to build and run Espresso tests
-androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.1'
-    
-// Set this dependency to build and run UI Automator tests
-androidTestCompile 'com.android.support.test.uiautomator:uiautomator-v18:2.1.2'
-```
-
-```
+   ```
    defaultConfig {
         applicationId "demo.example.com.demo"
         minSdkVersion 18
@@ -49,7 +46,7 @@ androidTestCompile 'com.android.support.test.uiautomator:uiautomator-v18:2.1.2'
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
-```
+   ```
 
 ----
 #### Building, Debugging and Testing
