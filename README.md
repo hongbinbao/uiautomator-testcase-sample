@@ -7,7 +7,7 @@
 > * ubuntu 14.04 64 bit
 > * JDK 1.7
 > * Android SDK
-    * Android SDK api level: **23**
+    * Android SDK api level: **23** (Android 6.0)
     * Android build tools version: **23.0.3**
 > *	Android Studio 2.0 link : [Android Studio 2.0](http://developer.android.com/intl/zh-cn/tools/studio/index.html)
     * Gradle version for gradle wrapper: **https://services.gradle.org/distributions/gradle-2.10-all.zip**
